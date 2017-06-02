@@ -1,0 +1,136 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,  
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}    
+body {
+    line-height: 1.7;
+    font-weight: 400;
+}
+a:hover {
+    text-decoration: none;
+}
+
+
+.section-padding {
+    padding: 80px 0;
+}
+.white-box {
+    box-shadow: 0 0 10px #f5f5f5;
+    padding: 30px;
+}
+.white-box h4, .blue-box h4 {
+    color: #373737;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact-form textarea {
+    max-height: 150px;
+    resize: none;
+}
+.contact-form input[type="submit"], .contact-form button[type="submit"] {
+    background-color: #4daefe;
+    transition: .3s;
+    width: auto;
+    margin: 0;
+}
+.contact-form input[type="submit"]:hover{
+    color: #4daefe;
+    background-color: aliceblue;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.blue-box {
+    background-color: #4daefe;
+    color: #fff;
+    min-height: 510px;
+    padding: 30px;
+}
+.blue-box a, .blue-box h4 {
+    color: #fff;
+}
+.blue-box h4 {
+    opacity: .9;
+}
+p.contact-info {
+    margin-bottom: 30px;
+    opacity: 0.85;
+    padding-left: 50px;
+    position: relative;
+}
+
+p.contact-info i.fa {
+    font-size: 20px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+.social-icon a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+}
+
+.social-icon a {
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #999;
+    color: #333;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.social-icon a:hover {
+    background-color: #fff;
+    box-shadow: 0 0 0;
+    color: #4daefe;
+}
+
+
+
